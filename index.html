@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Admin page</h1>
+  </header>
+
+  <section class="container">
+    <form id="my-form">
+      <h1>Add Products</h1>
+      <div class="msg"></div>
+      <div>
+        <label for="Selling Price">Selling Price:</label>
+        <input type="number" required id="selling">
+      </div>
+      <div>
+        <label for="Product name">Product name:</label>
+        <input type="text" required id="product">
+      </div>
+    
+      <input class="btn" type="submit" value="Add product">
+    </form>
+
+
+  </section>
+  <ul  id="outputList" >
+   
+
+  </ul>
+  <h3 id="value">Total value worth to product:</h3>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.3.6/axios.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
