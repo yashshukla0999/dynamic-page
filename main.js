@@ -49,20 +49,12 @@ function uiUpadte(obj){
 
     }
     
-    let total=document.getElementById('value')
-  var yash =0
-    axios.get("https://crudcrud.com/api/ce5116b1c1564a0690431ca288746174/admin")
-    .then((response)=>{
-        for(let i=0;i<response.data.length;i++){
-           yash = yash+response.data[i].sellingPrice
-        }
-
-    })
+   
+ 
     
     generateID.appendChild(showData);
      showData.appendChild(btn);
-    //  total.appendChild(yash);
-
-     total.innerHTML=yash
+    
    
 }
+function
