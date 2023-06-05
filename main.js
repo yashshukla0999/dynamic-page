@@ -57,4 +57,3 @@ function uiUpadte(obj){
     
    
 }
-function
